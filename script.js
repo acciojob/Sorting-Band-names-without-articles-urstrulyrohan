@@ -1,6 +1,6 @@
 //your code here
 let regexp = /\bthe\b|\ban\b|\ba\b/gi;
-// console.log(str.replace(regexp, "$"));
+console.log(str.replace(regexp, "$"));
 let arr = [
 	'The Virupaksha Temple', 
 	'a Victoria Memorial',
@@ -16,7 +16,7 @@ for (let i = 0; i < arr.lenghth ; i++) {
 }
 articleLessArray.sort();
 let ans = [];
-for (let i for articleLessArray) {
-	ans.push(mp[i] )
+for (let i of articleLessArray) {
+	ans.push(mp[i])
 }
 console.log(ans);
