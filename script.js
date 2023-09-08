@@ -7,9 +7,16 @@ let arr = [
 	'an Tajmahal'
 ];
 let articleLessArray = [];
+
+let mp = {};
 for (let i = 0; i < arr.lenghth ; i++) {
 	let articleLessItem = arr[i].replace(regexp , "").trim();
-	articleLessArray.push(articleLessItem)
+	articleLessArray.push(articleLessItem);
+	mp[articleLessItem] = arr[i];
 }
 articleLessArray.sort();
-console.log(articleLessArray);
+let ans = [];
+for (let i for articleLessArray) {
+	ans.push(mp[i] )
+}
+console.log(ans);
