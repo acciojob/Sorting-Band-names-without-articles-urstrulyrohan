@@ -1,6 +1,6 @@
 //your code here
 let regexp = /\bthe\b|\ban\b|\ba\b/gi;
-console.log(str.replace(regexp, "$"));
+// console.log(str.replace(regexp, "$"));
 let arr = [
 	'The Virupaksha Temple', 
 	'a Victoria Memorial',
